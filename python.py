@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<h2>This application is running in a Docker container.</h2>"
+    return "<h2>This application is running in a Docker container..</h2>"
 
 @app.route("/health")
 def health():
